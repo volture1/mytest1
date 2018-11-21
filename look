@@ -1,0 +1,80 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex d4987a2..0000000[m
+[1m--- a/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-/.idea/workspace.xml[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 66db4d9..64803df 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -1,7 +1,10 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+[31m-    <list default="true" id="945ba577-8cbd-458a-8b09-cc3e30f1fc8b" name="Default Changelist" comment="" />[m
+[32m+[m[32m    <list default="true" id="945ba577-8cbd-458a-8b09-cc3e30f1fc8b" name="Default Changelist" comment="">[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/src/hkr/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hkr/test/Main.java" afterDir="false" />[m
+[32m+[m[32m    </list>[m
+     <ignored path="$PROJECT_DIR$/out/" />[m
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />[m
+     <option name="SHOW_DIALOG" value="false" />[m
+[36m@@ -19,12 +22,12 @@[m
+       </usages-collector>[m
+       <usages-collector id="statistics.file.extensions.edit">[m
+         <counts>[m
+[31m-          <entry key="java" value="136" />[m
+[32m+[m[32m          <entry key="java" value="212" />[m
+         </counts>[m
+       </usages-collector>[m
+       <usages-collector id="statistics.file.types.edit">[m
+         <counts>[m
+[31m-          <entry key="JAVA" value="136" />[m
+[32m+[m[32m          <entry key="JAVA" value="212" />[m
+         </counts>[m
+       </usages-collector>[m
+     </session>[m
+[36m@@ -34,8 +37,8 @@[m
+       <file pinned="false" current-in-tab="true">[m
+         <entry file="file://$PROJECT_DIR$/src/hkr/test/Main.java">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="119">[m
+[31m-              <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />[m
+[32m+[m[32m            <state relative-caret-position="153">[m
+[32m+[m[32m              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />[m
+             </state>[m
+           </provider>[m
+         </entry>[m
+[36m@@ -143,8 +146,8 @@[m
+   <component name="editorHistoryManager">[m
+     <entry file="file://$PROJECT_DIR$/src/hkr/test/Main.java">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="119">[m
+[31m-          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />[m
+[32m+[m[32m        <state relative-caret-position="153">[m
+[32m+[m[32m          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[1mdiff --git a/gitignore.txt b/gitignore.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/src/hkr/test/Main.java b/src/hkr/test/Main.java[m
+[1mindex a84f5d6..21ed4e5 100644[m
+[1m--- a/src/hkr/test/Main.java[m
+[1m+++ b/src/hkr/test/Main.java[m
+[36m@@ -4,7 +4,9 @@[m [mpublic class Main {[m
+ [m
+     public static void main(String[] args) {[m
+ 	// write your code here[m
+[31m-        System.out.println("Hello this is the first version of the project.");[m
+[31m-        System.out.println("This is the second version of the project.");[m
+[32m+[m[32m        System.out.println("Hello this is the first version of the project");[m
+[32m+[m[32m        System.out.println("This is the second version of the project");[m
+[32m+[m[32m        System.out.println("This adds a new line of code in the project." );[m
+[32m+[m[32m        System.out.println("Another one!");[m
+     }[m
+ }[m
